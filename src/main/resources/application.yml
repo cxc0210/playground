@@ -1,0 +1,15 @@
+server:
+  port: 8848
+
+spring:
+  datasource:
+    url: jdbc:mysql://101.34.163.251:3306/andredb
+    username: andre
+    password: mysql@andre!@#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
