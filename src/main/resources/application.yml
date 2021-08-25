@@ -13,8 +13,3 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
-wx:
-  account:
-    appid: wxdff70d172c26d965
-    secret: f3cae9e6ab1ea13f247dbf9b626116ed
